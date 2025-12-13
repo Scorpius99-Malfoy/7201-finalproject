@@ -106,6 +106,8 @@ All visuals built programmatically—no drag-and-drop tools.
 ---
 
 ## 📦 Deliverables  
+<img width="2680" height="1130" alt="tongyi-mermaid-2025-12-14-042353" src="https://github.com/user-attachments/assets/eb5e84aa-78a1-4b43-92af-4d1f2771bf7f" />
+
 ```text
 project-root/
 ├── data/
@@ -126,18 +128,29 @@ project-root/
 ## 🧰 Technical Stack  
 | Purpose                | Tools & Libraries |
 |------------------------|-------------------|
-| Data Retrieval         | `yfinance`, manual curation, ethical web scraping |
+| Data Retrieval         | `yfinance`,Jupyter, manual curation, ethical web scraping |
 | Data Processing        | `pandas`, `numpy` |
 | Statistical Analysis   | `scipy.stats`, custom regression |
 | Visualization          | `plotly` (interactive), `matplotlib`, `seaborn` |
 | Reproducibility        | Git, Jupyter, documented workflows |
 
-No AutoML or off-the-shelf pipelines — all code written from scratch.
+
+## 🤖 AI-Assisted Development
+
+This project leveraged AI tools (e.g., Qwen, GitHub Copilot) for:
+- Code debugging and error resolution (e.g., Git authentication, Mermaid syntax)
+- Directory structure optimization
+- README documentation drafting and formatting
+- Workflow automation suggestions
+
+All final code, logic, and decisions were reviewed, validated, and refined by the authors.
+
 
 ---
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
 > © 2025 CISC7201 Group Q | University of Macau
+
 
 
 
