@@ -81,6 +81,25 @@ We prioritized **economic interpretability** over model complexity.
 | Annotated Time Series         | Highlight key events (layoffs, AI launches) on price trends             | Matplotlib   |
 | Boxplot by Sector             | Statistically test divergence between AI and legacy tech                 | SciPy + Plotly |
 
+🖼️ Visualization Approach
+To uncover the hidden dynamics behind the AI revolution and the layoff paradox in the tech sector (2021–2024), we designed seven programmatic visualizations. All charts were generated entirely through code—using Plotly, Matplotlib, Seaborn, and SciPy—ensuring reproducibility, statistical rigor, and narrative clarity.
+
+Chart Type	Purpose	Tool	Output
+Calendar Heatmap	Visualize daily stock return intensity across 2021–2024, highlighting key AI inflection points (e.g., NVIDIA’s Blackwell announcement in May 2023).	Plotly	
+Animated Bubble Plot	Track the evolution of market cap per employee vs. cumulative return over time, revealing NVIDIA’s efficiency surge (+8x) versus Intel’s stagnation.	Plotly	
+Grouped Bar Chart	Compare post-layoff performance (META, AMZN, INTC) against non-layoff peers (NVDA, MSFT, AMD) during 2022–2024. Shows that layoffs alone don’t drive value—AI alignment does.	Matplotlib	
+Scatter Plot	Expose the nonlinear relationship between % change in headcount and market cap growth. Confirms: efficiency gains stem from innovation, not just downsizing.	Seaborn	
+Annotated Time Series	Overlay critical events—layoff announcements, AI model launches, earnings calls—onto price trends to decode market reactions (e.g., META’s +394% rebound post-cuts).	Matplotlib	
+Sector Boxplot	Statistically test the divergence between the “AI cohort” (NVDA, MSFT, META, etc.) and “legacy tech” (INTC, IBM). Confirms structural realignment: +300% vs. –15% avg returns (2023–2024).	SciPy + Plotly	
+4-Year Trend Grid	Present a synchronized grid of 10 companies’ stock trajectories (2021–2024), visually documenting the irreversible bifurcation in tech valuations.	Matplotlib	
+💡 Data Fusion Foundation:
+
+All visuals are built on a unified dataset combining:
+
+Daily stock prices (Yahoo Finance)
+Annual employee counts & market cap (SEC filings, company reports)
+Layoff event logs (public announcements, Layoffs.fyi)
+AI milestone timeline (product launches, model releases, earnings transcripts)
 All visuals built programmatically—no drag-and-drop tools.
 
 ---
@@ -150,6 +169,7 @@ All final code, logic, and decisions were reviewed, validated, and refined by th
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
 > © 2025 CISC7201 Group Q | University of Macau
+
 
 
 
