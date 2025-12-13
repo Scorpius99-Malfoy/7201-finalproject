@@ -149,6 +149,7 @@ No AutoML or off-the-shelf pipelines — all code written from scratch.
 ---
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
-> © 2025 CISC7201 Team | University of Macau
+> © 2025 CISC7201 Group Q | University of Macau
+
 
 
