@@ -50,7 +50,8 @@ We built three custom datasets—no benchmark or Kaggle defaults:
 
 ### 🔧 Key Pipeline Steps
 
-![Data Engineering Pipeline](tongyi-mermaid-2025-12-14-012249.png)
+<img width="3445" height="1506" alt="tongyi-mermaid-2025-12-14-012249" src="https://github.com/user-attachments/assets/bbb29155-69dc-4dce-af12-d26780b06a5c" />
+
 
 > _Diagram generated from the following Mermaid source (editable):_
 
@@ -149,3 +150,4 @@ No AutoML or off-the-shelf pipelines — all code written from scratch.
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
 > © 2025 CISC7201 Team | University of Macau
+
