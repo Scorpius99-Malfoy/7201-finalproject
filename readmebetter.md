@@ -53,18 +53,6 @@ We built three custom datasets—no benchmark or Kaggle defaults:
 <img width="3445" height="1506" alt="tongyi-mermaid-2025-12-14-012249" src="https://github.com/user-attachments/assets/bbb29155-69dc-4dce-af12-d26780b06a5c" />
 
 
-> _Diagram generated from the following Mermaid source (editable):_
-
-```mermaid
-graph LR
-A[Raw CSV/API] --> B(Clean Dates & Types)
-B --> C(Handle Missing/Outliers)
-C --> D{Align Temporal Granularity}
-D --> E[Annual Panel Dataset]
-E --> F[Feature Engineering]
-F --> G[Efficiency Metrics]
-G --> H[Analysis-Ready Table]
-
 ### 🛠️ Feature Engineering Highlights
 - `revenue_per_employee = TotalRevenue / Employees`
 - `marketcap_per_employee = MarketCap / Employees`
@@ -150,6 +138,7 @@ No AutoML or off-the-shelf pipelines — all code written from scratch.
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
 > © 2025 CISC7201 Group Q | University of Macau
+
 
 
 
