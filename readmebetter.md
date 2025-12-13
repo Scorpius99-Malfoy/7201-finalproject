@@ -20,13 +20,13 @@ We ask:
 This question sits at the intersection of finance, labor economics, and technological disruption—making it ideal for an end-to-end data science investigation.
 
 ### 👥 Our Team  
-| Name            | Role & Strength                                      | Contribution |
-|-----------------|------------------------------------------------------|--------------|
-| Chen Yuewei     | Python Pipelines & Time Series                       | Sourced data through custom web scrapers from public sources. |
-| Lei Weng I      | Statistical Modeling                                 | Delivered the project presentation and demo video, clearly communicating motivation, methodology, and key insights. |
-| Ma Yining       | Financial Analysis & Domain Expertise                | Established the project theme and authored the technical README. |
-| Situ Waner      | Statistical Analysis & Interactive Visualization     | Designed and implemented interactive, publication-ready visualizations using Plotly and Matplotlib. |
-| Wu Suizhu       | Financial Domain Expertise                           | Prepared analysis-ready datasets through systematic data cleaning. |
+| Name             | Role & Strength                                      | Contribution |
+|------------------|------------------------------------------------------|--------------|
+| Chen Yuewei      | Python Pipelines & Time Series                       | Sourced data through custom web scrapers from public sources. |
+| Lei Weng I       | Statistical Modeling                                 | Delivered the project presentation and demo video, clearly communicating motivation, methodology, and key insights. |
+| Ma Yining        | Financial Analysis & Domain Expertise                | Established the project theme and authored the technical README. |
+| Situ Waner       | Statistical Analysis & Interactive Visualization     | Designed and implemented interactive, publication-ready visualizations using Plotly and Matplotlib. |
+| Wu Suizhu        | Financial Domain Expertise                           | Prepared analysis-ready datasets through systematic data cleaning. |
 
 Our diverse skills enabled a full-stack approach—from raw filings to visual insight.
 
@@ -150,4 +150,5 @@ No AutoML or off-the-shelf pipelines — all code written from scratch.
 
 > ℹ️ **Disclaimer**: For educational purposes only. Not investment advice.  
 > © 2025 CISC7201 Team | University of Macau
+
 
