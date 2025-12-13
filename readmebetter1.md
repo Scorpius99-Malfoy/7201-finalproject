@@ -22,11 +22,11 @@ This question sits at the intersection of finance, labor economics, and technolo
 ### 👥 Our Team  
 | Name             | Role & Strength                                      | Contribution |
 |------------------|------------------------------------------------------|--------------|
-| Chen Yuewei      | Python Pipelines & Time Series                       | Sourced data through custom web scrapers from public sources. |
-| Lei Weng I       | Statistical Modeling                                 | Delivered the project presentation and demo video, clearly communicating motivation, methodology, and key insights. |
-| Ma Yining        | Financial Analysis & Domain Expertise                | Established the project theme and authored the technical README. |
-| Situ Waner       | Statistical Analysis & Interactive Visualization     | Designed and implemented interactive, publication-ready visualizations using Plotly and Matplotlib. |
-| Wu Suizhu        | Financial Domain Expertise                           | Prepared analysis-ready datasets through systematic data cleaning. |
+| Chen Yuewei      | Demonstrating exceptional capabilities in data acquisition and possessing extensive financial expertise, proficient in deploying code to extract relevant financial datasets.                       | Sourced data through custom web scrapers from public sources. |
+| Lei Weng I       | Skilled in English public speaking, with a clear narrative logic; adept at using video format to condense the key points of reports, enhance information efficiency, and improve readability and visual impact.                                 | Delivered the project presentation and demo video, clearly communicating motivation, methodology, and key insights |
+| Ma Yining        | Possesses extensive financial expertise and the ability to identify financial issues and develop analytical frameworks for addressing related problems                | Established the project theme and authored the technical README |
+| Situ Waner       | Demonstrates extensive expertise in statistical analysis, data modeling, and front-end visualization architecture     | Designed and implemented interactive, publication-ready visualizations using Plotly and Matplotlib |
+| Wu Suizhu        | Combine statistics and business logic to clean data, and achieve smooth collaboration with clear and reproducible code                           | Prepared analysis-ready datasets through systematic data cleaning |
 
 Our diverse skills enabled a full-stack approach—from raw filings to visual insight.
 
@@ -59,6 +59,11 @@ We built three custom datasets—no benchmark or Kaggle defaults:
 - `annual_return = (YearEnd AdjClose / YearStart AdjClose) - 1`
 - Event flags for AI milestones (e.g., Blackwell launch, ChatGPT integration)
 - Sector-adjusted excess returns
+
+🧹 **Data Cleaning Summary**  
+- Missing employee counts imputed via forward-fill from latest SEC 10-K filing  
+- Duplicate stock price entries (from yfinance timestamp collisions) removed  
+- All steps logged in `notebooks/01_data_cleaning.ipynb` for full reproducibility
 
 We prioritized **economic interpretability** over model complexity.
 
