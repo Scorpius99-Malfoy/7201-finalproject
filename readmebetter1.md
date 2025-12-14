@@ -161,7 +161,7 @@ project-root/
 
 ### ▶️ Demo & Interactive Experience
 
-- **[Project Presentation Slides](presentation/7201GroupQ.pdf)** – Summarizes our motivation, methodology, and key findings.
+- **[Project Presentation Slides](7201GroupQ.pdf)** – Summarizes our motivation, methodology, and key findings.
 - **[Full Demo Video (MP4, 10 min)](presentation/demo.mp4)** – Walkthrough of data pipeline, visualizations, and insights with live demo.
 - **[Interactive Web Narrative](https://situwaner-q.github.io/tech-stock-analysis/)**
 
